@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/itemid"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:background="#AAAAAA"
+            android:text="1" />
+
+        <LinearLayout
+            android:layout_width="171dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#AAAAAA"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Itemname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="blah" />
+
+            <TextView
+                android:id="@+id/Itemprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Itemrating"
+            android:layout_width="18dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#AAAAAA"
+            android:text="1" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="18dp"
+        android:entries="@array/numbers"
+        android:prompt="@string/rating"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Rating"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Rate"
+        android:onClick="addrating"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Back"
+        android:onClick="gomainmenu"
+        />
+
+    <TextView
+        android:id="@+id/usernamedisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="username"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/emaildisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernamedisp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="email"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/numberdisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emaildisp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="number"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pricedisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/numberdisp"
+        android:layout_alignRight="@+id/numberdisp"
+        android:layout_below="@+id/numberdisp"
+        android:layout_marginTop="14dp"
+        android:text="price"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemnamedisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:text="itemname"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptiondisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemnamedisp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="description"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</RelativeLayout>
